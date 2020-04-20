@@ -1,7 +1,7 @@
 {
-  "name": "slack-boot",
+  "name": "slack-message-sender",
   "version": "1.0.0",
-  "description": "Slack Bot to exchange message",
+  "description": "Slack message sender via api call",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zahirull/slack-bot.git"
+    "url": "git+https://github.com/zahiruldu/slack-message-sender.git"
   },
   "keywords": [
     "Slack",
@@ -19,9 +19,9 @@
   "author": "Md. Zahirul Haque",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zahirull/slack-bot/issues"
+    "url": "https://github.com/zahiruldu/slack-message-sender/issues"
   },
-  "homepage": "https://github.com/zahirull/slack-bot#readme",
+  "homepage": "https://github.com/zahiruldu/slack-message-sender#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
