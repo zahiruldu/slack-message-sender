@@ -94,7 +94,7 @@ app.post('/message',(req, res)=>{
             }
      });
 
-          console.log('result', result.data)
+          // console.log('result', result.data)
 
       res.redirect('message');
     });
