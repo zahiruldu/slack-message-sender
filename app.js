@@ -85,7 +85,7 @@ app.post('/message',(req, res)=>{
             method: 'post',
             url: 'https://slack.com/api/chat.postMessage',
             headers: {
-              'Authorization': `Bearer ${access_token}`
+              // 'Authorization': `Bearer ${access_token}`
             },
             data: {
               text: fields.message,
