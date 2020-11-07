@@ -77,7 +77,7 @@ app.post('/message',(req, res)=>{
 
     form.parse(req, async function(err, fields, files) {
       if (err) {
-        // console.error(err.message);
+        console.error(err.message);
         res.redirect('message');
       }
 
